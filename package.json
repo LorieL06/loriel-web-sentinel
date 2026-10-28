@@ -1,0 +1,17 @@
+{
+  "name": "loriel-web-sentinel",
+  "version": "1.0.0",
+  "description": "Zero-cost Uptime & SSL Monitor using GitHub Actions",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": ["uptime", "monitor", "ssl", "github-actions", "secops"],
+  "author": "Bora Dogan",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
